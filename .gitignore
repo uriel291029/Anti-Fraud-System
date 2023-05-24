@@ -1,7 +1,11 @@
 HELP.md
 target/
 out/
-build/
+
+# From https://github.com/github/gitignore/blob/master/Gradle.gitignore
+.gradle
+/build/
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
