@@ -13,8 +13,6 @@ repositories {
     maven { url "https://jitpack.io" }
 }
 
-//sourceSets.main.resources.srcDirs = ["src/resources"]
-
 dependencies {
     testImplementation 'com.github.hyperskill:hs-test:release-SNAPSHOT'
     implementation 'org.springframework.boot:spring-boot-starter'
