@@ -1,3 +1,4 @@
+DELETE FROM transaction;
 DELETE FROM region;
 INSERT INTO region (Code, Description ) VALUES ('EAP', 'East Asia and Pacific' );
 INSERT INTO region (Code, Description ) VALUES ('ECA', 'Europe and Central Asia');
